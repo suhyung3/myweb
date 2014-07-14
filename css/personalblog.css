@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
+html {
+      font-family: Helvetica, 'Nanum Gothic',sans-serif;
+}
 
 header {
     position: relative;
@@ -48,6 +51,11 @@ header span {
  padding: 5px;
 }
 
+body {
+    paddint-top: 80px;
+      font-family: "Helvetica Neue", Helvetica, 'Nanum Gothic', sans-serif;
+}
+
 section {
 
 }
@@ -64,6 +72,72 @@ section #about {
 	font-family: Helvetica, 'Nanum Gothic', sans-serif;
 
 }
+
+
+/*container*/
+
+.container {
+    margin: auto;
+    padding: 80px 30px 50px 30px;
+}
+
+.container-odd {
+  background-color: #ffffff;
+}
+
+.container-even {
+  background-color: #FFCCCC; 
+}
+
+.container-footer{
+    padding: 1%;
+}
+
+
+
+/* navbar */
+
+.navbar {
+  min-height: 80px;
+  padding-top: 20px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.navbar-default {
+  background-color: #FFCCCC;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+      color: #fff;
+}
+
+.navbar-default .navbar-text {
+    color: #fff;
+}
+
+ .navbar-default .navbar-nav > li > a {
+    color: #fff;
+ }
+ 
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus {
+    color: #2C3E52;
+   background-color: transparent;
+ }
+
+ .navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+
 
 /* social buttons */
 
