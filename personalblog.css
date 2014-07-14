@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+header .container {
+    padding-bottom: 50px;
+}
+
+header img {
+    position: relative;
+    width: 100%;
+    max-height: 520px;
+    display: block;
+    margin: auto;
+}
+
+header .intro-text {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+header .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Helvetica, 'Nanum Gothic',sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+header .intro-text .nickname {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: left;
+
+}
+
+header span {
+ color: white; 
+ background: rgb(0, 0, 0); /* fallback color */
+ background: rgba(0, 0, 0, 0.7);
+ padding: 5px;
+}
+
+section {
+
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', Helvetica, 'Nanum Gothic',sans-serif;
+    color: #2C3E52;
+}
+
+section #about {
+	font-family: Helvetica, 'Nanum Gothic', sans-serif;
+
+}
+
+/* social buttons */
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #FFCCCC;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+.btn-outline {
+    margin-top: 15px;
+    border: solid 2px #FFCCCC;
+    font-size: 20px;
+    color: #FFCCCC;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #FFCCCC;
+    color: #fff;
+    background: #FFCCCC;
+    text-decoration: none;
+}
+
+#footer {
+    color: #fff;
+    background-color: #2C3E52;
+    padding-top: 10px;
+}
+
+#footer h3 {
+    margin-bottom: 20px;
+}
+
+#footer .footer-above {
+    padding-top: 50px;
+    background-color: #2c3e50;
+}
+
+#footer .footer-col {
+    margin-bottom: 50px;
+}
+
+#footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
